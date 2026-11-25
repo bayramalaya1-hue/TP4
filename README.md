@@ -39,7 +39,7 @@ docker build -t mern-client ./Client
 
 
 4. 3malt el réseau
-*3malt réseau bech les conteneurs ynajmou yahdrou m3a b3adhhom :
+*3malt réseau bech les conteneurs ynajmou ycomminiquiw m3a b3adhhom :
 ```
 docker network create mern-network
 ```
