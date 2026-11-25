@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USER = 'bayramalaya'
+	PATH+DOCKER= 'C:\Users\slimb\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe'
     }
 
     stages {
