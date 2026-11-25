@@ -32,10 +32,10 @@ pipeline {
             }
         }
 
-        stage('Deploy (compose)') {
+                stage('Deploy (compose)') {
             steps {
-                bat 'docker compose down'
-                bat 'docker compose up -d --build'
+                bat 'docker-compose down'
+                bat 'docker-compose up -d --build'
             }
         }
     }
