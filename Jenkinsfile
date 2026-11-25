@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    environment {
+      environment {
         DOCKERHUB_USER = 'bayramalaya'
-	PATH+DOCKER= 'C:\Users\slimb\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe'
+        PATH = "C:\\Users\\slimb\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;${env.PATH}"
     }
 
     stages {
